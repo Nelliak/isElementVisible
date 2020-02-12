@@ -4,7 +4,7 @@
  **/
 window.addEventListener("scroll", function() { // detect scroll event
 
-  var mySound = document.getElementById("myaudio"); // select audio id
+  var mySound = document.getElementById("newone"); // select audio id
   var lyd = document.getElementById("lyd");
   console.log("Er div #lyd synlig? " + elFllVsbl(lyd)); // test
 
@@ -28,3 +28,5 @@ function elFllVsbl(el) {
 NB: the audio / video tags will allways return true,
 solution: place the tag in a div and test for the div in stead
 */
+
+
